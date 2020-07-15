@@ -5,6 +5,7 @@
   border: 1px solid black;
   line-height: 50px;
 }
+
 @media screen and (min-width:768px){
   .hamburger{
     display: none;
@@ -43,7 +44,7 @@
   border-radius: 5%;
   height: 200px;
   width: 200px;
-  margin: auto;
+  margin-left: 20px;
 }
 .row-main-top{
   margin-top:20px;
