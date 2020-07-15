@@ -1,0 +1,51 @@
+/* parte superiore dell'header */
+.header-top{
+  background-color: red;
+  text-align: center;
+  border: 1px solid black;
+  line-height: 50px;
+}
+@media screen and (min-width:768px){
+  .hamburger{
+    display: none;
+  }
+}
+.hamburger{
+ text-align: right;
+}
+@media screen and (max-width:768px){
+  .link{
+    display: none;
+  }
+}
+/* parte superiore dell'header */
+/* parte inferiore dell'header */
+.header-bottom{
+  background-color: lightgreen;
+  height: 600px;
+  text-align: center;
+  position: relative;
+}
+.text{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+/* parte inferiore dell'header */
+
+/* parte superiore dell'header */
+.main-top{
+  text-align: center;
+}
+.square{
+  background-color: blue;
+  border-radius: 5%;
+  height: 200px;
+  width: 200px;
+  margin: auto;
+}
+.row-main-top{
+  margin-top:20px;
+}
+/* parte superiore dell'header */
