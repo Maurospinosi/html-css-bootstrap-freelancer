@@ -1,10 +1,18 @@
 /* parte superiore dell'header */
 .header-top{
   background-color: rgb(44,62,80);
-  text-align: center;
   border: 1px solid black;
-  line-height: 50px;
+  line-height: 80px;
+  height: 80px;
   color: white;
+  position: fixed;
+  left:0;
+  top:0;
+  width:100%;
+  z-index: 1;
+}
+.header_text{
+  text-align: left;
 }
 
 @media screen and (min-width:768px){
@@ -58,14 +66,17 @@
   width:200px;
   background-color: blue;
   margin: auto;
-  border-radius: 5%;
-  margin-top: 20px;
+  margin-top:30px;
 }
 /* parte superiore de Main */
 
 /* parte centrale del Main */
+.wrapper_small{
+  width:900px;
+  margin:auto;
+}
 .main-center{
-  padding:30px 0px;
+  padding:40px 0px;
   text-align: center;
   background-color: lightgreen;
   color:white;
@@ -81,6 +92,7 @@
 /* parte inferiore del Main */
 .main-bottom{
   text-align: center;
+  padding:40px 0px;
 }
 .bottom-list li{
   list-style: none;
@@ -94,18 +106,21 @@
 }
 /* parte inferiore del Main */
 
+
+footer{
+  text-align: center;
+  color: white;
+}
 /* parte superiore del footer */
 .footer-top{
-  text-align: center;
+  padding:40px 0px;
   background-color:blue;
-  color: white;
 }
 /* parte superiore del footer */
 
-/* parte inferioer del footer */
+/* parte inferiore del footer */
 .copyright{
-  color: white;
-  text-align: center;
+  padding:40px 0px;
   background-color: red;
 }
-/* parte inferioer del footer */
+/* parte inferiore del footer */
