@@ -1,9 +1,10 @@
 /* parte superiore dell'header */
 .header-top{
-  background-color: red;
+  background-color: rgb(44,62,80);
   text-align: center;
   border: 1px solid black;
   line-height: 50px;
+  color: white;
 }
 
 @media screen and (min-width:768px){
@@ -12,12 +13,24 @@
   }
 }
 .hamburger{
- text-align: right;
+  text-align: right;
+  color:white;
 }
 @media screen and (max-width:768px){
   .link{
     display: none;
   }
+}
+.link li{
+  list-style: none;
+  display: inline-block;
+}
+.link a {
+  color: white;
+  margin-left: 20px;
+}
+.hamburger button{
+  background-color: rgb(44,62,80);
 }
 /* parte superiore dell'header */
 /* parte inferiore dell'header */
@@ -35,18 +48,64 @@
 }
 /* parte inferiore dell'header */
 
-/* parte superiore dell'header */
+/* parte superiore del Main */
 .main-top{
   text-align: center;
+  padding: 40px 0px;
 }
 .square{
-  background-color: blue;
-  border-radius: 5%;
   height: 200px;
-  width: 200px;
-  margin-left: 20px;
+  width:200px;
+  background-color: blue;
+  margin: auto;
+  border-radius: 5%;
+  margin-top: 20px;
 }
-.row-main-top{
-  margin-top:20px;
+/* parte superiore de Main */
+
+/* parte centrale del Main */
+.main-center{
+  padding:30px 0px;
+  text-align: center;
+  background-color: lightgreen;
+  color:white;
 }
-/* parte superiore dell'header */
+.center_text{
+  margin: 40px 0;
+}
+.first-text{
+  margin-bottom: 20px;
+}
+/* parte centrale del Main */
+
+/* parte inferiore del Main */
+.main-bottom{
+  text-align: center;
+}
+.bottom-list li{
+  list-style: none;
+  text-align: left;
+}
+.bottom-list input{
+  border:none;
+}
+.bottom-list textarea{
+  border:none;
+}
+/* parte inferiore del Main */
+
+/* parte superiore del footer */
+.footer-top{
+  text-align: center;
+  background-color:blue;
+  color: white;
+}
+/* parte superiore del footer */
+
+/* parte inferioer del footer */
+.copyright{
+  color: white;
+  text-align: center;
+  background-color: red;
+}
+/* parte inferioer del footer */
