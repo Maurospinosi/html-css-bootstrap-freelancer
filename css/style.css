@@ -31,6 +31,14 @@ body{
     height: 150px;
     width: 200px;
   }
+  .wrapper_small{
+    width:500px;
+    margin:auto;
+  }
+  h2{
+    font-weight: 700;
+    font-size: 40px;
+  }
 }
 @media screen and (min-width:768px) and (max-width:992px){
   .link a {
@@ -49,6 +57,14 @@ body{
     height: 200px;
     width: 250px;
   }
+  .wrapper_small{
+    width:800px;
+    margin:auto;
+  }
+  h2{
+    font-weight: 700;
+    font-size: 50px;
+  }
 }
 @media screen and (min-width:992px){
   .link a {
@@ -66,6 +82,14 @@ body{
   .main-center-img{
     height: 250px;
     width: 300px;
+  }
+  .wrapper_small{
+    width:900px;
+    margin:auto;
+  }
+  h2{
+    font-weight: 700;
+    font-size: 60px;
   }
 }
 /* parte superiore dell'header */
@@ -150,10 +174,6 @@ h1{
   padding: 40px 0px;
   color:rgb(44,62,80);
 }
-.main-top h2{
-  font-weight: 700;
-  font-size: 60px;
-}
 .main-center-img{
   margin: auto;
   margin-top:30px;
@@ -186,21 +206,28 @@ h1{
 /* parte superiore de Main */
 
 /* parte centrale del Main */
-.wrapper_small{
-  width:900px;
-  margin:auto;
-}
+
 .main-center{
   padding:40px 0px;
   text-align: center;
-  background-color: lightgreen;
+  background-color: rgb(26, 188, 156);
   color:white;
 }
 .center_text{
   margin: 40px 0;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: left;
 }
 .first-text{
   margin-bottom: 20px;
+}
+.first-buttom{
+  background-color:  rgb(26, 188, 156);
+  border: white 1px solid;
+  color: white;
+  font-size: 30px;
+  padding: 20px;
 }
 /* parte centrale del Main */
 
@@ -209,15 +236,30 @@ h1{
   text-align: center;
   padding:40px 0px;
 }
+.main-bottom H2{
+  color: rgb(44,62,80);
+}
 .bottom-list li{
   list-style: none;
   text-align: left;
+  font-size: 30px;
+  font-weight: 400;
 }
 .bottom-list input{
   border:none;
 }
 .bottom-list textarea{
   border:none;
+}
+.second-buttom{
+  background-color: rgb(26, 188, 156);
+  color: white;
+  font-size: 30px;
+  padding: 20px;
+}
+.second-buttom:hover{
+  background-color: rgb(21, 154, 128);
+  color: white;
 }
 /* parte inferiore del Main */
 
@@ -227,15 +269,32 @@ footer{
   color: white;
 }
 /* parte superiore del footer */
+h3{
+  font-weight: 600;
+  font-size: 35px;
+}
 .footer-top{
   padding:40px 0px;
-  background-color:blue;
+  background-color:rgb(44, 62, 80);
+  font-weight: 400;
+  font-size: 25px;
+}
+.footer-top a {
+  color:rgb(21, 154, 128);
+}
+.social{
+  font-size: 20px;
+  margin: 0 8px;
+  border: 2px solid white;
+  border-radius: 100%;
+  padding:15px;
 }
 /* parte superiore del footer */
 
 /* parte inferiore del footer */
 .copyright{
   padding:40px 0px;
-  background-color: red;
+  background-color: rgb(26, 37, 47);
+  font-size: 15px;
 }
 /* parte inferiore del footer */
