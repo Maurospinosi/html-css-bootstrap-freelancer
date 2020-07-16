@@ -1,20 +1,90 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+.star{
+  font-size: 40px;
+}
+.star hr{
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 20px;
+  height: 5px;
+  border-radius: 8%;
+}
+#hr-white{
+  background-color: white;
+}
+#hr-black{
+  background-color: rgb(44,62,80);
+}
+@media screen and (max-width:768px){
+  .star hr{
+    width:80px;
+  }
+  .header-top-text{
+    font-size: 20px;
+  }
+  h1{
+    font-size: 60px;
+  }
+  .main-center-img{
+    height: 150px;
+    width: 200px;
+  }
+}
+@media screen and (min-width:768px) and (max-width:992px){
+  .link a {
+    font-size: 17px;
+  }
+  .star hr{
+    width:150px;
+  }
+  .header-top-text{
+    font-size: 30px;
+  }
+  h1{
+    font-size: 80px;
+  }
+  .main-center-img{
+    height: 200px;
+    width: 250px;
+  }
+}
+@media screen and (min-width:992px){
+  .link a {
+    font-size: 20px;
+  }
+  .star hr{
+    width:200px;
+  }
+  .header-top-text{
+    font-size: 40px;
+  }
+  h1{
+    font-size: 100px;
+  }
+  .main-center-img{
+    height: 250px;
+    width: 300px;
+  }
+}
 /* parte superiore dell'header */
 .header-top{
   background-color: rgb(44,62,80);
-  border: 1px solid black;
-  line-height: 80px;
-  height: 80px;
+  line-height: 100px;
+  height: 100px;
   color: white;
+  font-weight: 600;
   position: fixed;
   left:0;
   top:0;
   width:100%;
   z-index: 1;
 }
-.header_text{
-  text-align: left;
+.header-top a{
+  text-decoration: none;
+  color: white;
 }
-
 @media screen and (min-width:768px){
   .hamburger{
     display: none;
@@ -34,25 +104,43 @@
   display: inline-block;
 }
 .link a {
-  color: white;
   margin-left: 20px;
 }
 .hamburger button{
   background-color: rgb(44,62,80);
 }
+.link li :hover{
+  color:rgb(26, 188, 156);
+}
 /* parte superiore dell'header */
 /* parte inferiore dell'header */
 .header-bottom{
-  background-color: lightgreen;
-  height: 600px;
+  margin-top: 100px;
+  background-color: rgb(26, 188, 156);
   text-align: center;
   position: relative;
+  color: white;
+  height: 1000px;
 }
 .text{
   position: absolute;
   top:50%;
   left:50%;
   transform: translate(-50%, -50%);
+  font-weight: 400;
+  font-size: 35px;
+}
+h1{
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.header-bottom img{
+  width: 300px;
+  height: 319px;
+}
+
+.header-bottom-text{
+  margin-top: 20px;
 }
 /* parte inferiore dell'header */
 
@@ -60,13 +148,19 @@
 .main-top{
   text-align: center;
   padding: 40px 0px;
+  color:rgb(44,62,80);
 }
-.square{
-  height: 200px;
-  width:200px;
-  background-color: blue;
+.main-top h2{
+  font-weight: 700;
+  font-size: 60px;
+}
+.main-center-img{
   margin: auto;
   margin-top:30px;
+  border-radius: 5%;
+}
+.main-center-img-a:hover{
+  background-color: rgb(26, 188, 156)
 }
 /* parte superiore de Main */
 
