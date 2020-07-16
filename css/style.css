@@ -158,10 +158,31 @@ h1{
   margin: auto;
   margin-top:30px;
   border-radius: 5%;
+  background-position: center;
+  background-size: cover;
 }
-.main-center-img-a:hover{
-  background-color: rgb(26, 188, 156)
+.main-center-img:hover{
+  background-color: rgba(26, 188, 156,0.5);
 }
+.one{
+  background-image: url(../img/cabin.png);
+}
+.two{
+  background-image: url(../img/cake.png);
+}
+.three{
+  background-image: url(../img/circus.png);
+}
+.four{
+  background-image: url(../img/game.png);
+}
+.five{
+  background-image: url(../img/safe.png);
+}
+.six{
+  background-image: url(../img/submarine.png);
+}
+
 /* parte superiore de Main */
 
 /* parte centrale del Main */
